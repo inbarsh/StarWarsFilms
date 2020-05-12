@@ -1,0 +1,14 @@
+<header class="header">
+
+  <a [routerLink]="['/']"><img class="home-img" src="/assets/img/logo.png" alt="Logo"></a>
+
+  <nav class="header-block-link">
+    <ul class="header-block-link__ul">
+      <li class="header-block-link__li"><a class="header-block-link__a"
+        routerLinkActive="header-block-link__a_active" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/']">All</a></li>
+      <li class="header-block-link__li"><a class="header-block-link__a"
+        routerLinkActive="header-block-link__a_active" [routerLink]="['/favorites']">Favorites</a></li>
+    </ul>
+  </nav>
+
+</header>
